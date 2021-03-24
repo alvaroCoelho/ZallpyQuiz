@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_country">Selecione o país de origem das montadoras abaixo:</string>
+    <string name="result">Resultado</string>
+    <string name="england">Inglaterra</string>
+    <string name="usa">USA</string>
+    <string name="germany">Alemanha</string>
+    <string name="japan">Japão</string>
+    <string name="you_are_right">Você acertou</string>
+</resources>

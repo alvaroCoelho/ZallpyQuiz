@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZallpyQuiz</string>
+    <string name="remake">remake</string>
+    <string name="select_country">" Select the country of origin of the automakers below:"</string>
+    <string name="result">Result</string>
+    <string name="england">England</string>
+    <string name="usa">USA</string>
+    <string name="germany">Germany</string>
+    <string name="japan">Japan</string>
+    <string name="you_are_right">You\'re right</string>
+</resources>

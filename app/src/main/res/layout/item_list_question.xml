@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="10sp"
+    android:layout_marginTop="10sp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:textColor="#3CB371"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEngland"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30sp"
+        android:text="@string/england"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/usa"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxEngland"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+    <CheckBox
+        android:id="@+id/checkBoxGermany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/germany"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxUSA"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+    <CheckBox
+        android:id="@+id/checkBoxJapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/japan"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxGermany"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
+
+</android.support.constraint.ConstraintLayout>
