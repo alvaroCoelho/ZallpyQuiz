@@ -21,7 +21,7 @@ The architecture selected in the application was MVP.
 
 below link with video demonstration of the application:
 
-[![Watch the video]https://user-images.githubusercontent.com/2738131/112322253-81279900-8c8f-11eb-9793-fb220e42a48e.mp4
+https://user-images.githubusercontent.com/2738131/112322253-81279900-8c8f-11eb-9793-fb220e42a48e.mp4
 
 apk do app:
 [app-quiz.zip](https://github.com/alvaroCoelho/ZallpyQuiz/files/6197792/app-quiz.zip)
