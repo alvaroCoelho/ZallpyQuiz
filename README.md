@@ -16,7 +16,7 @@ v1 / support / questions
 
 - retrofit2 with jackson for JSON formatting;
 
-The architecture selected in the application was MVP.
+The architecture selected in the application was MVP and the app is translated into English
 
 
 below link with video demonstration of the application:
