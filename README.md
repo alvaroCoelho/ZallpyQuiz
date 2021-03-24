@@ -2,8 +2,8 @@
 
 project aimed at Zallpy's technical challenge.
 
-It is basically an application about the origin
-assemblers, where the user must answer some questions and obtain their
+It is basically an application about the origin of
+vehicle fitters, where the user must answer some questions and obtain their
 result as a percentage at the end of the questionnaire.
 The questions should appear at random and should be consumed through
 of an API.
