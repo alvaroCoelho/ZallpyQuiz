@@ -3,6 +3,7 @@ package com.br.zallpyquiz.question;
 import com.br.zallpyquiz.rest.RetrofitConfig;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import retrofit2.Call;
@@ -28,6 +29,7 @@ public class QuestionPresenter implements QuestionContract {
 
                 if(response.isSuccessful()) {
                     questions = response.body();
+                    Collections.shuffle(questions);
                     view.onSuccessfullLoadQuestions(questions);
                 }else{
                     System.out.println(response.code());
